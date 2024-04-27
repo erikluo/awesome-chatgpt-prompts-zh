@@ -80,6 +80,9 @@ ChatGPT是由[OpenAI](https://openai.com/)训练的一款大型语言模型，�
 
 如需编程请使用https://github.com/PlexPt/awesome-chatgpt-prompts-zh/blob/main/prompts-zh.json 
 
+## 周报润色
+
+> 请帮我把以下的工作内容填充为一篇完整的周报，用 markdown 格式以分点叙述的形式输出： {{work}}
 
 ## 充当 Linux 终端
 
