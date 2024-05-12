@@ -84,6 +84,12 @@ ChatGPT是由[OpenAI](https://openai.com/)训练的一款大型语言模型，�
 
 > 请帮我把以下的工作内容填充为一篇完整的周报，用 markdown 格式以分点叙述的形式输出： {{work}}
 
+## 画图提示词编写
+
+> Please create an image generation prompt to fit this brief:
+{user_question}
+Please add more detail and nuance to the prompt and please ONLY reply with the english version prompt and nothing else. DO NOT  include "Prompt: " or any other precursor, just the prompt itself, otherwise your comments also get used in the image generation.
+
 ## 充当 Linux 终端
 
 > 我想让你充当 Linux 终端。我将输入命令，您将回复终端应显示的内容。我希望您只在一个唯一的代码块内回复终端输出，而不是其他任何内容。不要写解释。除非我指示您这样做，否则不要键入命令。当我需要用英语告诉你一些事情时，我会把文字放在中括号内[就像这样]。我的第一个命令是 pwd
